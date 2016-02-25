@@ -1,10 +1,9 @@
-//function that returns an array of books (a piece of application state)
-
-export default function(){ //any file can import this file
-	return [
-		{title: 'Javascript: The Good Parts'},
-		{title: 'Harry Potter'},
-		{title: 'The Dark Tower'},
-		{title: 'Eloquent Ruby'}
-	]
+export default function() {
+  console.log("Reducer_Books");
+  return [
+    {title: 'Js: The Good Parts', pages: 100}, 
+    {title: 'Harry Potter', pages: 39}, 
+    {title: 'The Dark Tower', pages: 85}, 
+    {title: 'Ruby', pages: 1}
+  ]
 }
